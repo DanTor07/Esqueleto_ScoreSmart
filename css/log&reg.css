@@ -1,0 +1,136 @@
+/* Fondo general */
+body {
+    background-image: url('../img/IniciarSesion.jpg'); /* Ajusta la ruta según tu estructura de carpetas */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container2 {
+    margin-top: 5rem;
+}
+
+/* Estilo para la tarjeta */
+.card2 {
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado de la tarjeta con fondo transparente */
+.card-header2 {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    color: black; /* Texto negro para buena visibilidad */
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Cuerpo de la tarjeta */
+.card-body2 {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo ligeramente opaco */
+    border-radius: 15px;
+}
+
+/* Estilo para los campos del formulario */
+.form-floating2 .form-control2 {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form-floating2 label {
+    color: #6c757d;
+}
+
+/* Checkbox */
+.form-check-label2 {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Botón de inicio de sesión */
+.btn-primary2 {
+    background-color: #007BFF;
+    border-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.btn-primary2:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Pie de la tarjeta */
+.card-footer2 {
+    background-color: #f8f9fa;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Pie de página */
+footer2 {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+
+footer2 .text-muted2 {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+footer2 a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+footer2 a:hover {
+    color: #343a40;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 576px) {
+    .container2 {
+        margin-top: 2rem;
+    }
+
+    .card2 {
+        margin: 1rem;
+    }
+
+    .btn-primary2 {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .form-check-label2 {
+        font-size: 0.8rem;
+    }
+}
